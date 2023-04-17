@@ -1,14 +1,14 @@
 
 n = int(input())
-numbers1 = input().split()
-numbers1 = [int(numbers1[i]) for i in range(n)]
+numbers_n = input().split()
+numbers_n = [int(numbers_n[i]) for i in range(n)]
 
 m = int(input())
-numbers2 = input().split()
-numbers2 = [int(numbers2[i]) for i in range(m)]
+numbers_m = input().split()
+numbers_m = [int(numbers_m[i]) for i in range(m)]
 
 dif_num = list()
-for i in numbers1:
-    if i not in numbers2:
+for i in numbers_n:
+    if i not in numbers_m:
         dif_num.append(i)
 print(*dif_num)
