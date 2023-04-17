@@ -16,6 +16,6 @@ numbers = input().split()
 numbers = [int(numbers[i]) for i in range(n)]
 count = 0
 for i in range(1,len(numbers)-1):
-    if numbers[i-1] < numbers[i] > numbers[i]:
+    if numbers[i-1] < numbers[i] and numbers[i+1] < numbers[i]:
         count += 1
-print(f"Количество искомых элементов: {count}")
+print(count)
