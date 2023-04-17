@@ -12,8 +12,8 @@
  Вывод: 3 3 2 12"""
 
 n = int(input())
-numbers_n = input().split()
-numbers_n = [int(numbers_n[i]) for i in range(n)]
+numbers1 = input().split()
+numbers1 = [int(numbers1[i]) for i in range(n)]
 
 m = int(input())
 numbers_m = input().split()
