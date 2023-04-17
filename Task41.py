@@ -10,3 +10,12 @@
 1 2 3 4 5    1 5 1 5 1
 Вывод:       Вывод:
 0            2"""
+
+n = int(input())
+numbers = input().split()
+numbers = [int(numbers[i]) for i in range(n)]
+count = 0
+for i in range(1,len(numbers)-1):
+    if numbers[i-1] < numbers[i] and numbers[i+1] < numbers[i]:
+        count += 1
+print(count)
