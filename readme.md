@@ -1,5 +1,6 @@
 Seminar6 included:
 Task45
+
 commits before resets:
 
 4bcd0e6 (HEAD -> main) Revert "changes"
